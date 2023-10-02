@@ -1,0 +1,25 @@
+:root{
+  font-size: 62.5%;
+
+  --hue: 23;
+  --colorH1: hsl(var(--hue), 80%, 40%);
+  
+  --colorP: hsl(var(--hue), 60%, 80%);
+  
+}
+
+
+section h1 , h1 p{
+
+  padding: 0.8rem;
+  margin: 1rem auto;
+
+}
+
+h1{
+  background-color:  var(--colorH1) ;
+}
+
+p{
+  background-color: var(--colorP)
+}

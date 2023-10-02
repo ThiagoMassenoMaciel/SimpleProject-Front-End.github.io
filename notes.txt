@@ -1,0 +1,10 @@
+========================||===02/10/2023==||=============================
+========================||====Demorei====||=============================
+========================||=====1h30'=====||=============================
+Erros : 
+      Assim que carregasse a pagina já apareia  a resposta
+      ESPERADO : so aparecer a resposta depois de clicado aquele h1 
+
+      MOTIVO : não sei o pq não esta funcionando 
+
+========================||=====()=====||=============================
