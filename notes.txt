@@ -16,8 +16,10 @@ Erros :
 
 ========================||===04/10/2023==||=============================
 ========================||====Demorei====||=============================
-========================||=====1h30'=====||=============================
-
+========================||=====3h51'=====||=============================
+terminei mas para a róxima fica eu ajeitar o bug para conseguir tmbm abrir a resposta de sua respectiva pergunta 
+eu n pesquei o conteudo de DOM manipulation , reusei o que eu ja sábia
+========================||=====()=====||=============================
 PROTOTYPE_1 
       expected 
                                                 __> put
@@ -87,3 +89,5 @@ PROTOTYPE_2
 
 
 VERSION 1.0 
+                  to reset 3 commits after comit called bug4    
+                        Faça um force-push, sobrescrevendo a branch remota com sua branch local atual # (Que foi recriada a partir da master) git push -f -u origin nome-da-branch
