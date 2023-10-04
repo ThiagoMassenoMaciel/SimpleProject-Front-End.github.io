@@ -66,3 +66,24 @@ PROTOTYPE_2
                               ....document.querySelector('.iconOPENask img').style.transform = 'rotate(180deg)'
 
                         >>Outro erro : eu n consigo fazer com que depois de clicar denovo no icon ele retorne para onde estava
+                              ENCONTREI UM PADRÃO 
+                                    se a quantidade de clicks for nº impar Isso quer dizer que eu devo rotacionar o icone em 180deg
+                                    se a quantidade de clicks for nº par Isso quer dizer que eu devo rotacionar o icone para o que era antes 0deg
+                              DEPOIS DEEXECUTAR ESTE TESTE  alterar apenas os graus dentro da propriedade de animação ROTATE(${bem aqui}DEG)
+
+            |||||||||||||bug 4|||||||||||||
+                  >>>>>>Depois que eu coloquei outra section como cópia de estrutura html para próxima pergunta deu erro 
+                        pois antes a ancora h1 era referenciando apenas um elemento 
+                              depois que coloquei    querySelectorAll para tmbm pegar outros h1 de outras perguntas 
+                              deu erro
+
+                              main.js:9  
+                              Uncaught TypeError: h1.addEventListener is not a function
+                              at main.js:9:4
+
+                              o que acontece é que eu devo agora colocar um Escutador para cada h1 dentro da array ancora 
+                  >>>>>>Este bug vai ser consertado na proxima VERSÃO 2.0
+
+
+
+VERSION 1.0 

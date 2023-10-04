@@ -2,37 +2,60 @@
   font-size: 62.5%;
 
   --hue: 23;
+  --colorIMG: hsl(var(--hue), 90%, 25%);
   --colorH1: hsl(var(--hue), 90%, 50%);
-  
-  --colorP: hsl(var(--hue), 50%, 70%);
+  --colorP: hsl(var(--hue), 90%, 90%);
   
 }
 
-section h1 , h1 p{
+section{
 
-  padding: 0.8rem;
-  margin: 1rem auto;
+  padding: 1rem auto;
+  margin: 2rem;
+
 
 }
 
 h1{
+  
+  color: var(--colorP);
   background-color:  var(--colorH1) ;
 
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 0;
   padding: 1.5rem;
 
   border-radius: 2rem 2rem 0 0 ;
+
+  align-items: center;
+  text-align: center;
 }
 
 .iconOPENask img{
-  width: 2rem;
-  height: 2rem;
-
+  margin: 0;
+  padding: 0;
+  width: 2.5rem;
+  height: 1.50rem;
 }
 
+
 #ask{
-  background-color: var(--colorP)
+
+  color: var(--colorH1);
+
+  background-color: var(--colorP);
+  
+  margin-top: 0;
+  padding: 2rem;
+  
+  font-size: 1.8rem;
+  
+  border-radius:0 0  2rem 2rem  ;
+
+  align-items: center;
+  text-align: center;
 }
 
 .div{
