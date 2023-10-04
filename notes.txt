@@ -8,3 +8,61 @@ Erros :
       MOTIVO : não sei o pq não esta funcionando 
 
 ========================||=====()=====||=============================
+
+
+
+
+
+
+========================||===04/10/2023==||=============================
+========================||====Demorei====||=============================
+========================||=====1h30'=====||=============================
+
+PROTOTYPE_1 
+      expected 
+                                                __> put
+            After click on tag h1 gonna do it __/     or      the display none from div 
+                                                \__> get out 
+
+PROTOTYPE_2 
+
+      icon get by [](Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.)
+      expected 
+
+            same things last 
+            +
+            
+            put the icon into the h1 to direction low   
+                                        + display none  
+            
+            after click   the icon direction up 
+                                   + show ask message
+            ||||||||||||bug 2||||||||||||
+                  >>>>>>depois que coloquei o style.propriedade css para alimar aparecia erro 
+                        > quando usei o addEventListener no segundo parametro eu chamei a function com parenteses 
+                        🚫ERRADO
+                              ....h1.addEventListener("click" , functions())
+                        ✅CORRETO
+                              ....h1.addEventListener("click" , functions)
+
+                        agora depois de ajeitado esta sumindo o icon  
+                        ...pois eu n tinha colocado ancora na div da resposta com o seu id 
+                        🚫ERRADO 
+                              ....document.querySelector('div').classList.toggle('div')
+                        🚫ERRADO 
+                              ....document.getElementById('#ask').classList.toggle('div')
+                        ✅CORRETO
+                              ....document.getElementById('ask').classList.toggle('div')
+
+            ||||||||||||bug 3||||||||||||
+                  >>>>> Não estou conseguindo mover o icon apontado para cima quando ele é clicado 
+
+                  Uncaught TypeError: Cannot read properties of null (reading 'style')  main.js:13
+                        at animation (main.js:13:46)
+                        at HTMLHeadingElement.functions (main.js:9:3)
+                        🚫ERRADO 
+                              ....document.querySelector('iconOPENask img').style.transform = 'rotate(180deg)'
+                        ✅CORRETO
+                              ....document.querySelector('.iconOPENask img').style.transform = 'rotate(180deg)'
+
+                        >>Outro erro : eu n consigo fazer com que depois de clicar denovo no icon ele retorne para onde estava
