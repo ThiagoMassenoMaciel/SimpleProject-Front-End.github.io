@@ -22,3 +22,7 @@ h1{
 #ask{
   background-color: var(--colorP)
 }
+
+.div{
+  display: none;
+}
