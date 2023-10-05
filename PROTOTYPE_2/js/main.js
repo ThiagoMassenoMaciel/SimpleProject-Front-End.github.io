@@ -12,7 +12,8 @@ console.log(p2)
 console.log(ask2)
 
 let count = 1 ;
-//refatorar este codigo
+//refatorado este codigo
+//bug4 n ter colocado callback dentro do Listener
 p1.addEventListener("click" , ()=> functions(ask1,p1))   
 p2.addEventListener("click" , ()=> functions(ask2,p2))   
 
